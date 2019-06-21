@@ -469,7 +469,32 @@
       </div>
     </div>
 
-    
+    <ul>
+ <li><a href="javascript:visibilite('div_texte1');">afficher texte 1</a></li>
+ <li><a href="javascript:visibilite('div_texte2');">afficher texte 2</a></li>
+ <li><a href="javascript:visibilite('div_texte3');">afficher texte 3</a></li>
+</ul>
+			
+<div id="div_texte1" style="display:block;">			
+ <p>TEXTE 1</p>
+</div>		
+		
+<div id="div_texte2" style="display:none;">
+ <p>TEXTE 2</p>
+</div>		
+		
+<div id="div_texte3" style="display:none;">
+ <p>TEXTE 3</p>
+</div>
+<script>
+    var divPrecedent=document.getElementById('div_texte1');
+    function visibilite(divId)
+    {
+        divPrecedent.style.display='none';
+        divPrecedent=document.getElementById(divId);
+        divPrecedent.style.display='';
+    }
+</script>
 
 
     <div class="site-section block-15">
