@@ -663,7 +663,9 @@
               </div>
               <h2 class="heading mb-0 h5"><a href="#">Réussir l'intégration du nouveau salarié</a></h2>
               <span class="mb-3 d-block post-date">Juin 12, 2019 &bullet; Par <a href="#">Emmanuel Macron</a></span>
+                <div id="modal">
               <p>Le recrutement d'un nouveau collaborateur demande la mobilisation de ressources, de temps, d'énergie, et parfois même d'argent. Une fois le processus terminé, il reste cependant encore une étape importante à passer : son intégration. Cette démarche a pour but de lui donner une vraie place au sein de l'entreprise, et surtout de transformer ce recrutement en succès.</p>
+                    </div>
             </div>
           
             <div class="media-with-text">
@@ -860,4 +862,65 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&libraries=places&callback=initAutocomplete"
         async defer></script>
 
- 
+ **
+            
+                
+                
+            
+<html lang="fr-FR">
+			<meta charset="utf-8" />
+		<title>Titre de la page</title>
+		<style type="text/css">
+#visit1{
+	float:left;
+	width:45%;
+	height:230px;
+	margin:12px 0 0 25px;
+	background-color:#A9BCF5;
+}
+
+#visit1>img+span {
+	position: absolute; 
+	width: 30px; 
+	height: 30px;
+	top: 199px; 
+	left: 14px; 
+}
+
+#divbouton {
+	overflow: hidden;
+	height: 0;
+	margin-top: 10px;
+	color:#fff; 
+	background:#666; 
+	transition: height .4s ease;
+}
+		</style>
+	
+	<div id="visit1">
+	<img src="summer.jpg" alt="" class="photo" />
+	<span>
+		<a href="#"><img src="bouton-plus.jpg" alt="Ne pas laisser vide !" data-toShow="divbouton" /> </a>
+	</span>
+	<div id="divbouton">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nisl lectus, consequat eget iaculis nec, cursus a metus. In eros massa, tincidunt vel dolor eu, rutrum laoreet nibh. Ut bibendum massa sed consequat ultricies. Duis sed ante quis odio mattis ornare. In vitae quam a est aliquam aliquet non vel purus. Praesent condimentum nibh odio, et condimentum odio interdum ut. Nunc mattis viverra ipsum ut venenatis. Nulla facilisi.</div>
+</div>
+<script type="text/javascript">
+function hideShow(e){
+
+	(e.preventDefault) ? e.preventDefault() : (e.returnValue = false);
+	
+	var targetID = (e.target || e.srcElement).getAttribute("data-toShow"),
+		elementToShow = document.getElementById(targetID);
+
+	elementToShow.style.height = (elementToShow.offsetHeight == 0 ? elementToShow.scrollHeight : "0") + 'px';
+
+}
+
+var a = document.querySelectorAll("[data-toShow]"),
+	x = 0,
+	l = a.length;
+
+for (; x<l; x++) document.addEventListener ? a[x].addEventListener("click", hideShow, false) : a[x].attachEvent("onclick", hideShow);
+
+</script>
+	
