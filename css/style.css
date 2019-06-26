@@ -956,3 +956,8 @@ a {
     background: #179BA1;
     color: #fff;
     border: 1px solid transparent; }
+
+
+.nom-de-ma-classe {
+  border-radius: 15px; 
+}
