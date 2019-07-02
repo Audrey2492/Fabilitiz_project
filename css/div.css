@@ -1,0 +1,26 @@
+<style type="text/css">
+#visit1{
+	float:left;
+	width:45%;
+	height:230px;
+	margin:12px 0 0 25px;
+	background-color:#A9BCF5;
+}
+
+#visit1>img+span {
+	position: absolute; 
+	width: 30px; 
+	height: 30px;
+	top: 199px; 
+	left: 14px; 
+}
+
+#divbouton {
+	overflow: hidden;
+	height: 0;
+	margin-top: 10px;
+	color:#fff; 
+	background:#666; 
+	transition: height .4s ease;
+}
+		</style>
