@@ -15,6 +15,9 @@ body {
   background: #000;
   color: #fff; }
 
+.site-section2 {
+    margin-top: 200px}
+
 h1, h2, {color: #000000} h3, h4, h5,
 {color: #000 }
 .h1, .h2, .h3, .h4, .h5 {color: #000; }
@@ -109,8 +112,8 @@ font-size: 30px;
 
 .site-section1 {
   padding: 25em 0; 
-    margin-top: 40px}
-    
+    margin-top: 30px}
+
 .site-section {
   padding: 3em 0; }
   @media (min-width: 768px) {
