@@ -16,15 +16,15 @@ body {
   color: #fff; }
 
 .site-section2 {
-    margin-top: 200px}
+    margin-top: 230px}
 
 h1, h2, {color: #000000} h3, h4, h5,
 {color: #000 }
 .h1, .h2, .h3, .h4, .h5 {color: #000; }
 a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  -webkit-transition: .2s all ease;
+  -o-transition: .2s all ease;
+  transition: .2s all ease; }
   a:hover {
     text-decoration: none; }
 
