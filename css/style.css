@@ -15,8 +15,13 @@ body {
   background: #000;
   color: #fff; }
 
+.agrandir
+{
+    height: 200px;
+}
+
 .site-section2 {
-    margin-top: 230px}
+    margin-top: 180px}
 
 h1, h2, {color: #000000} h3, h4, h5,
 {color: #000 }
@@ -30,7 +35,7 @@ a {
 
 /*Comment ça marche*/
 h2 { 
-font-size: 30px;
+font-size: 35px;
 }
 
 .text-black {
@@ -111,7 +116,7 @@ font-size: 30px;
     box-shadow: none !important; }
 
 .site-section1 { 
-    margin-top: 250px}
+    margin-top: 160px}
 
 .site-section {
   padding: 3em 0; }
