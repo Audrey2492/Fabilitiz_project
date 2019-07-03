@@ -15,19 +15,27 @@ body {
   background: #000;
   color: #fff; }
 
+.agrandir
+{
+    height: 200px;
+}
+
+.site-section2 {
+    margin-top: 180px}
+
 h1, h2, {color: #000000} h3, h4, h5,
 {color: #000 }
 .h1, .h2, .h3, .h4, .h5 {color: #000; }
 a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  -webkit-transition: .2s all ease;
+  -o-transition: .2s all ease;
+  transition: .2s all ease; }
   a:hover {
     text-decoration: none; }
 
 /*Comment ça marche*/
 h2 { 
-font-size: 30px;
+font-size: 35px;
 }
 
 .text-black {
@@ -107,10 +115,9 @@ font-size: 30px;
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
-.site-section1 {
-  padding: 25em 0; 
-    margin-top: 40px}
-    
+.site-section1 { 
+    margin-top: 160px}
+
 .site-section {
   padding: 3em 0; }
   @media (min-width: 768px) {
