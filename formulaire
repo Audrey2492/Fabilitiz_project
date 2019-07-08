@@ -1,0 +1,75 @@
+<div class="container">
+        <div class="site-navbar bg-light">
+          <div class="py-1">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <a href="index.html" class="navbar-brand"><img src="images/logo_f-abilities.png" alt=""> <a href="index.html">-Abilitiz</a></a> 
+                <h6 class="mb-0 site-logo"><a href="index.html">Détecte les talents, Valorise les compétences</a></h6>
+              </div>
+              <div class="col-8">
+                <nav class="site-navigation text-right" role="navigation">
+                  <div class="container">
+                    <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+                  </div></nav></div></div></div></div></div>
+
+  <div class="unit-5 overlay" style="background-image: url('images/hero_1.jpg');">
+      <div class="container text-center">
+        <h2 class="mb-0">Pour aller plus loin, inscrivez-vous ! </h2>
+      </div>
+    </div>
+
+    
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+       
+          <div class="col-md-12 col-lg-8 mb-5">
+          
+            
+          
+            <form action="#" class="p-5 bg-white">
+
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="fullname">Nom</label>
+                  <input type="text" id="fullname" class="form-control" placeholder="Votre nom">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="fullname">Prénom</label>
+                  <input type="text" id="fullname" class="form-control" placeholder="Votre prénom">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="font-weight-bold" for="email">Adresse Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="Votre adresse Email ">
+                </div>
+              </div>
+
+
+              <div class="row form-group">
+                <div class="col-md-12 mb-3 mb-md-0">
+                  <label class="font-weight-bold" for="phone">Mot de passe</label>
+                  <input type="text" id="phone" class="form-control" placeholder="Votre mot de passe">
+                </div>
+              </div>
+
+              <form method="post" action="traitement.php">
+            <p>
+              <input type="checkbox" name="frites" id="frites" /> <label for="frites">J'accepte que F-Abilitiz utilise mes informations</label><br />
+       <input type="checkbox" name="steak" id="steak" /> <label for="steak">Je souhaite m'inscrire à la Newsletter F-Abilitiz</label><br />
+              </p>
+            </form>
+            
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="S'inscrire" class="btn btn-primary pill px-4 py-2">
+                </div>
+              </div>
+
+  
+            </form>
+          </div>
